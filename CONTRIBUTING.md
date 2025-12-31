@@ -5,11 +5,26 @@ Welcome. This guide helps you make your first pull request in a safe, friendly r
 ## Quick steps
 
 1. Fork the repository.
-2. Clone your fork to your computer.
-3. Create a new branch for your change.
+2. Clone your fork to your computer:
+   ```bash
+   git clone https://github.com/<your-username>/openpath-first-pr.git
+   cd openpath-first-pr
+   ```
+3. Create a new branch for your change:
+   ```bash
+   git checkout -b add-your-name
+   ```
 4. Add one line to `participants.md`.
-5. Commit your change.
-6. Push your branch and open a pull request.
+5. Commit your change:
+   ```bash
+   git add participants.md
+   git commit -m "Add my name"
+   ```
+6. Push your branch:
+   ```bash
+   git push -u origin add-your-name
+   ```
+7. Open a pull request on GitHub.
 
 ## Branching and commits
 
